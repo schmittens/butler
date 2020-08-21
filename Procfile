@@ -1,1 +1,1 @@
-web: gunicorn butler.butler.wsig:application --log-file -
+web: gunicorn butler.wsig --log-file -
