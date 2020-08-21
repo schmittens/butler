@@ -26,7 +26,7 @@ SECRET_KEY = 'xy+xy@u%z@+7vkh)nsh7bver7d^okwg4qc7$^f1ux-9g53@tl9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-butler.herokuapp.com']
 
 
 # Application definition
