@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'butler.urls'
+ROOT_URLCONF = 'butler.butler.urls'
 
 TEMPLATES = [
     {
