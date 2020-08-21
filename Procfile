@@ -1,1 +1,1 @@
-web: gunicorn butler.butler.wsgi --log-file -
+web: gunicorn --bin 0.0.0.0:$PORT django-butler:app
