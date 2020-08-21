@@ -1,1 +1,1 @@
-web: gunicorn butler.butler.wsig --log-file -
+web: gunicorn butler.wsgi --log-file -
